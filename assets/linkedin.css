@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  box-shadow: 10px 0 10px gray;
+}
+.header-first {
+  display: flex;
+  flex: 40%;
+  justify-content: center;
+  gap: 10px;
+}
+.input-image {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+.input-search {
+  display: flex;
+  width: 50%;
+}
+#input-search-box {
+  text-align: start;
+  width: 100%;
+  padding: 7px 20px 7px 10px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.header-second {
+  display: flex;
+  flex: 40%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  gap: 5px;
+  border-bottom: 2px solid transparent;
+}
+.navigation:hover {
+  border-bottom: 2px solid #000;
+}
+.nav-icon {
+  width: 25px;
+  height: 25px;
+}
+.nav-text:hover {
+  color: black;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+#nav-img {
+  border-radius: 20px;
+}
+.header-third {
+  display: flex;
+  flex: 20%;
+  align-items: center;
+  gap: 30px;
+}
+.work-text {
+  text-decoration: none;
+  text-align: center;
+}
+.work-text:hover {
+  text-decoration: underline;
+}
+.nav-work-text {
+  color: #915905;
+}
+.nav-work-text:hover {
+  color: #402702;
+}
+.main-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  padding: 100px 100px 50px 100px;
+  background-color: ghostwhite;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  width: 220px;
+  /* padding: 10px; */
+}
+.profile-image {
+  border: 1px solid slategrey;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 50px;
+  background-color: slategray;
+  position: relative;
+}
+.profile-space {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+#ic-1 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid whitesmoke;
+  border-radius: 50px;
+}
+.profile-text {
+  text-align: center;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+#text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.discover {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  /* padding: 15px; */
+  position: sticky;
+  top: 100px;
+}
+.recent {
+  padding: 10px;
+  color: #0a66c2;
+}
+.recent:hover {
+  background-color: gainsboro;
+  border-radius: 20px;
+  text-decoration: underline;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.post-area-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+#ic-2 {
+  display: flex;
+  flex: 3;
+  width: 50px;
+  height: 50px;
+  border: 1px solid silver;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.search-input {
+  display: flex;
+  flex: 7;
+}
+#search-input-area {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid silver;
+  border-radius: 30px;
+}
+.post-area-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.photos {
+  color: gray;
+  padding: 5px;
+}
+.photos:hover {
+  color: black;
+}
+.card {
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.card-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.card-image-area {
+  width: 500px;
+  height: 600px;
+}
+.card-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: gray;
+  padding: 10px;
+}
+.icon-img:hover {
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  /* padding: 10px; */
+}
+.linkedin-news {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.news-area {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  padding: 10px;
+}
+li:hover {
+  cursor: pointer;
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+.add-sticky {
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  padding: 10px;
+  position: sticky;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.add-cantaine {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* padding-top: 10px; */
+}
+.linkedin-name {
+  color: #0a66c2;
+  font-weight: bold;
+  font-size: 20px;
+}
+.linkedin-logo {
+  width: 15px;
+  height: 15px;
+}
